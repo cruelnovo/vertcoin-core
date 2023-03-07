@@ -389,13 +389,13 @@ public:
         consensus.signet_challenge.clear();
         consensus.nSubsidyHalvingInterval = 150;
         consensus.BIP16Exception = uint256();
-        consensus.BIP34Height = 1; // Always active unless overridden
+        consensus.BIP34Height = 100; // Always active unless overridden
         consensus.BIP34Hash = uint256();
-        consensus.BIP65Height = 1;  // Always active unless overridden
-        consensus.BIP66Height = 1;  // Always active unless overridden
-        consensus.CSVHeight = 1;    // Always active unless overridden
-        consensus.SegwitHeight = 0; // Always active unless overridden
-        consensus.MinBIP9WarningHeight = 0;
+        consensus.BIP65Height = 100;  // Always active unless overridden
+        consensus.BIP66Height = 100;  // Always active unless overridden
+        consensus.CSVHeight = 100;    // Always active unless overridden
+        consensus.SegwitHeight = 100; // Always active unless overridden
+        consensus.MinBIP9WarningHeight = 244;
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.preVerthashPowLimit = consensus.powLimit;
         consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; // two weeks
