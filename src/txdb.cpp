@@ -7,6 +7,7 @@
 
 #include <chainparams.h>
 #include <chain.h>
+#include <chainparams.h>
 #include <node/ui_interface.h>
 #include <pow.h>
 #include <random.h>
