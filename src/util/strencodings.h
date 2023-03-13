@@ -21,6 +21,8 @@
 #include <string>
 #include <vector>
 
+#define BEGIN(a)            ((char*)&(a))
+
 /** Used by SanitizeString() */
 enum SafeChars
 {
