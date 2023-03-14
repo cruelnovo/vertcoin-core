@@ -1219,7 +1219,7 @@ bool AppInitMain(NodeContext& node, interfaces::BlockAndHeaderTipInfo* tip_info)
     }
 
 #if defined(USE_SSE2)
-    std::string sse2detect = scrypt_detect_sse2();
+    std::string sse2detect = scrypt_detect_sse2(0);
     LogPrintf("%s\n", sse2detect);
 #endif
 
